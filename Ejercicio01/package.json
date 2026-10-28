@@ -1,0 +1,21 @@
+{
+  "name": "01-api-node",
+  "version": "1.0.0",
+  "description": "Primera api con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Huigen Chen Chen",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "morgan": "^1.12.1"
+  }
+}
