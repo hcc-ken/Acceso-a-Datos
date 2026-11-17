@@ -1,0 +1,27 @@
+{
+  "name": "Huigen Chen Chen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcc-ken/Acceso-a-Datos.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hcc-ken/Acceso-a-Datos/issues"
+  },
+  "homepage": "https://github.com/hcc-ken/Acceso-a-Datos#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1",
+    "morgan": "^1.12.1"
+  }
+}
